@@ -1,0 +1,76 @@
+body{
+	font-family: sans-serif;
+	background: #0089e4;
+}
+
+.navbar-brand-centered {
+	position:static;
+	left: 50%;
+	display: block;
+	width: 290px;
+	text-align: center;
+	
+}
+.navbar>.container .navbar-brand-centered, 
+.navbar>.container-fluid .navbar-brand-centered {
+	margin-left: -80px;
+}
+
+.itemku{
+	
+	color: rgb(255, 255, 255);
+    text-shadow: 5px 2px 4px rgb(0, 153, 255);
+    margin-left: 20px;
+	
+}
+.box{
+    
+	width: 350px;
+	background: #ffffff;
+	/*meletakkan form ke tengah*/
+	margin: 80px auto;
+	padding: 30px 20px;
+    box-shadow: 0px 0px 500px 4px #d6d6d6;
+    border-radius:10px ;
+}
+ 
+label{
+	font-size: 11pt;
+}
+ 
+.form_login{
+	/*membuat lebar form penuh*/
+	box-sizing : border-box;
+	width: 100%;
+	padding: 10px;
+	font-size: 11pt;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+ 
+.tombol_login{
+	background: #2aa7e2;
+	color: white;
+	font-size: 11pt;
+	width: 100%;
+	border: none;
+	border-radius: 30px;
+	padding: 10px 20px;
+}
+ 
+.link{
+	color: #232323;
+	text-decoration: none;
+	font-size: 10pt;
+}
+ 
+.alert{
+	background: #e44e4e;
+	color: white;
+	padding: 10px;
+	text-align: center;
+	border:1px solid #b32929;
+}
+.pesan{
+    text-align: center;
+}

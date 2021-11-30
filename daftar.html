@@ -1,0 +1,86 @@
+<html>
+
+<head>
+    <title>DAFTAR AKUN</title>
+    <link rel="stylesheet" type="text/css"
+        href="https://objectstorage.ap-osaka-1.oraclecloud.com/n/axsorteekh7g/b/uts/o/styleAdmin.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width = device-width , initial-scale = 1">
+    <link rel="stylesheet"
+        href="https://objectstorage.ap-osaka-1.oraclecloud.com/n/axsorteekh7g/b/uts/o/css%2Fbootstrap.min.css">
+    <script src='https://objectstorage.ap-osaka-1.oraclecloud.com/n/axsorteekh7g/b/uts/o/jquery-3.5.1.js'></script>
+    <script type="text/javascript"
+        src="https://objectstorage.ap-osaka-1.oraclecloud.com/n/axsorteekh7g/b/uts/o/js%2Fbootstrap.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+    <style>
+        .navbar {
+            border-radius: 50px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+    </style>
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+        <a class="navbar-brand" href="index.php">
+            <img alt="Brand"
+                src="https://objectstorage.ap-osaka-1.oraclecloud.com/n/axsorteekh7g/b/uts/o/img1%2Fjoystick.png"
+                width=100px>
+        </a>
+        <div class="itemku">
+            <h1>ITEMKU<h1>
+        </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <style>
+
+        </style>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav ">
+                <li>
+                    <a class="nav-link" href="logout.php">KEMBALI</a>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+    <div class="container-fluid">
+        <table rules="all">
+            <form method="POST" action="daftarProses.php" enctype="multipart/form-data">
+                <h1>DAFTAR</h1>
+                <tr>
+                    <td> id </td>
+                    <td> <input type="number" name="id"> </td>
+                </tr>
+                <tr>
+                    <td> Nama</td>
+                    <td> <input type="text" name="nama" required="required"> </td>
+                </tr>
+                <tr>
+                    <td> Username</td>
+                    <td> <input type="text" name="username" required="required"> </td>
+                </tr>
+                <tr>
+                    <td> Password</td>
+                    <td> <input type="password" name="password" required="required"> </td>
+                </tr>
+                <tr>
+                    <td> Level</td>
+                    <td> <input type="text" name="level" required="required"> </td>
+                </tr>
+                <tr>
+                    <td colspan="2"> <input type="submit" name="tambah" value="DAFTAR"></td>
+                </tr>
+
+            </form>
+        </table>
+    </div>
+</body>
+
+</html>

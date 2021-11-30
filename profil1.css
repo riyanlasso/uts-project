@@ -1,0 +1,35 @@
+
+#slider{
+    padding: 10px 0 10px;
+    position: relative;
+    width: 300px;
+    height: 300px;
+}
+
+#slider img{
+    margin-left: 175px;
+    width: 1200px;
+    height: 400px;
+    position: absolute;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border-radius: 100px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    border: 10px solid;
+    padding: 10px;
+}
+.container {
+    margin-top: 200px;
+}
+.navbar-nav{
+    margin-left : 725px ;
+    color: white;
+}
+.nav-link{
+    font-size: 25px;
+    
+}
+
+
+
+
+
