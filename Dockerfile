@@ -3,5 +3,6 @@ MAINTAINER riyanlasso<riyanlasso@gmail.com>
 RUN mkdir -p /app
 WORKDIR /app
 
-COPY uts-project /app
+COPY /home/ubuntu/uts-project /app
+
 
