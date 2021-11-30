@@ -3,5 +3,5 @@ MAINTAINER riyanlasso<riyanlasso@gmail.com>
 RUN mkdir -p /app
 WORKDIR /app
 
-COPY index.php /app
+COPY uts-project /app
 
